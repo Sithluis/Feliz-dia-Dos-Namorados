@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From My Love</title>
+</head>
+
+<style>
+    body {
+        background-color: #fcb7c4;
+    }
+
+    header {
+        text-align: center;
+        background-image: linear-gradient(to bottom ,#fa4a6a , #ff758f);
+        padding: 10px;
+        color: white;
+        font-size: 26px;
+        border-radius: 0 0 10px 10px ;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    nav a {
+        background-color: #000000;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ff758f;
+        padding: 10px;
+        margin-left: 10px;
+        transition-duration: .4s;
+    }
+
+    nav a:hover {
+        background-color: #242424;
+        color: #fa869b;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.795);
+    }
+
+    #fotos {        
+       background-image: url(C2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        margin: auto;
+        margin-top: 10px;
+        width: 60vw;
+        height: 80vh;
+
+        animation-name: animacao;
+        animation-duration: 7s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes  animacao {
+        0% { background-image: url(C2.jpg) ;}
+
+        50%{background-image: url(C4.jpg) ;}
+
+        100%{ background-image: url(C1.jpg);}
+    }
+</style>
+
+<body>
+    <header>
+    <nav>
+        <a href="TextoFofo/index.html">Cartinha</a>
+        <a href="MyHeart/index.html">Meu Coração</a>
+        <a href="porqueYou/you.html">O Seu brilho Sem Fim</a>
+        <a href="Pedido/pedido.html">Pedido Sincero</a>
+    </nav>
+    </header>
+    <main id="fotos">
+        
+    </main>
+</body>
+</html>
